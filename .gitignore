@@ -1,0 +1,7 @@
+bin/
+npm-debug/
+node_modules/
+bin-release/
+noncp-debug.log
+npm-debug.log
+.DS_Store

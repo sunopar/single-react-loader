@@ -1,0 +1,11 @@
+<script>
+    function bb(){
+        console.log('hello world')
+    }
+</script>
+
+<style>
+div{
+color:red;
+}
+</style>
