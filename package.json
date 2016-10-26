@@ -1,0 +1,24 @@
+{
+  "name": "react-loader",
+  "version": "0.0.1",
+  "description": "webpack react-loader",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sunopar/react-loader.git"
+  },
+  "keywords": [
+    "webpack",
+    "react",
+    "loader"
+  ],
+  "author": "sunOpar",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sunbrother/react-loader/issues"
+  },
+  "homepage": "https://github.com/sunbrother/react-loader#readme"
+}
