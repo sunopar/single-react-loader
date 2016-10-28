@@ -1,0 +1,19 @@
+<script>
+import {Link} from 'react-router'
+import a from './About.scss'
+var About = ()=>{
+  return (
+    <div className={a.container}>
+    about
+    <Link to="about">to about</Link>
+    </div>
+  )
+}
+export default About;
+</script>
+
+<style>
+.container{
+
+}
+</style>
