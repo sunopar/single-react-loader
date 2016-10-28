@@ -1,17 +1,10 @@
 bin/
-<<<<<<< HEAD
 npm-debug/
 node_modules/
-=======
 dist/
-npm-debug/
->>>>>>> dev
 bin-release/
 noncp-debug.log
 npm-debug.log
 .DS_Store
-<<<<<<< HEAD
-=======
-node_modules/
 test/node_modules/
->>>>>>> dev
+
