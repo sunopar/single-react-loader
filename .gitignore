@@ -1,6 +1,9 @@
 bin/
+dist/
 npm-debug/
 bin-release/
 noncp-debug.log
 npm-debug.log
 .DS_Store
+node_modules/
+test/node_modules/
