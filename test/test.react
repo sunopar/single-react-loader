@@ -11,6 +11,6 @@ export default About;
 
 <style>
 .container{
-
+  color:red;
 }
 </style>
