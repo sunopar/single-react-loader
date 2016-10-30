@@ -12,6 +12,6 @@ module.exports = function(content) {
     // if (Array.isArray(part)) {
     //     part = part[query.index]
     // }
-    console.log(thisContent)
+    // console.log(thisContent)
     this.callback(null, thisContent)
 }

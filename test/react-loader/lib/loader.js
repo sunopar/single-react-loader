@@ -40,13 +40,16 @@ module.exports = function(content) {
     let style = thisContent.style
 
     let output = 'var __react_exports__,__react_options__;\n'
-
+    if (style) {
+        output += '\n/* stype */'
+        output += 'require("!!css-loader!react-loader/lib/selector?type=style!./test.react")'
+    }
     if (script) {
         output += '\n/* script */\n'
             // output += '__react_exports__ =' + (script.src
             //     ? getRequireForImport
             //     : getRequire('script', script))
-        output += '__react_exports__=require("!!babel-loader!react-loader/lib/selector?type=script&index=0!./test.react")'
+        output += '__react_exports__=require("!!!babel-loader!react-loader/lib/selector?type=script&index=0!./test.react")'
     }
     output += '\nmodule.exports = __react_exports__\n'
         // output += 'module.exports=__react_exports__'

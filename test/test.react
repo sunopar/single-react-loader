@@ -1,9 +1,8 @@
 <script>
 var About = ()=>{
   return (
-    <div className={a.container}>
+    <div className='container'>
     about
-    <Link to="about">to about</Link>
     </div>
   )
 }
