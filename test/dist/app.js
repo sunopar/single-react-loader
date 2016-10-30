@@ -48,10 +48,38 @@
 
 /***/ },
 /* 1 */
+/***/ function(module, exports, __webpack_require__) {
+
+	var __react_exports__,__react_options__;
+
+	/* script */
+	__react_exports__=__webpack_require__(2)
+	module.exports = __react_exports__
+
+
+/***/ },
+/* 2 */
 /***/ function(module, exports) {
 
-	var tpl = 'hello world';
-	 module.exports = tpl;
+	"use strict";
+
+	Object.defineProperty(exports, "__esModule", {
+	  value: true
+	});
+
+	var About = function About() {
+	  return React.createElement(
+	    "div",
+	    { className: a.container },
+	    "about",
+	    React.createElement(
+	      Link,
+	      { to: "about" },
+	      "to about"
+	    )
+	  );
+	};
+	exports.default = About;
 
 /***/ }
 /******/ ]);

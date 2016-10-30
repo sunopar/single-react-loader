@@ -1,6 +1,4 @@
 <script>
-import {Link} from 'react-router'
-import a from './About.scss'
 var About = ()=>{
   return (
     <div className={a.container}>
