@@ -77,7 +77,7 @@ import About from 'About.react'
 <script>
 ...
 </script>
-<style scoped">
+<style scoped>
 ...
 </style>
 
