@@ -7,7 +7,7 @@ write react in single file with webpack
 ## feature
 1. combine jsx and css in single file
 2. support less,sass
-
+3. support style scoped
 ## example
 
 ```
@@ -71,9 +71,23 @@ import About from 'About.react'
 </style>
 ```
 
+### make styleSheet privatization(or scoped)
+
+```
+// app.react
+<script>
+...
+</script>
+<style scoped">
+...
+</style>
+
+```
+
 ## What next
 
-1. support sourceMap
-2. support style scope
+1.support sourceMap
+
+~~2.support style scope~~
 
 You can contact me if you have any idea.

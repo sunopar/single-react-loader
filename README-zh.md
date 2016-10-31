@@ -5,7 +5,7 @@
 ## 特性
 1. 将jsx和css组合在一个文件内
 2. 支持less，sass
-
+3. 支持style样式的私有化
 ## 例子
 
 ```
@@ -70,9 +70,23 @@ import About from 'About.react'
 </style>
 ```
 
+### 如何设置样式私有化
+
+```
+// app.react
+<script>
+...
+</script>
+<style scoped">
+...
+</style>
+
+```
+
 ## 下一步计划
 
-1. 支持sourceMap
-2. 支持组件样式的私有化
+1.支持sourceMap
+
+~~2.支持组件样式的私有化~~
 
 如果你有任何好的想法请与我联系
