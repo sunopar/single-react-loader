@@ -1,6 +1,6 @@
 {
   "name": "react-loader",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "description": "webpack react-loader",
   "main": "index.js",
   "scripts": {
@@ -18,7 +18,26 @@
   "author": "sunOpar",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/sunbrother/react-loader/issues"
+    "url": "https://github.com/sunopar/react-loader/issues"
   },
-  "homepage": "https://github.com/sunbrother/react-loader#readme"
+  "homepage": "https://github.com/sunopar/react-loader#readme",
+  "dependencies": {
+    "loader-utils": "^0.2.16",
+    "source-map": "^0.5.6"
+  },
+  "devDependencies": {
+    "babel-core": "^6.18.0",
+    "babel-loader": "^6.2.7",
+    "babel-preset-es2015": "^6.18.0",
+    "babel-preset-react": "^6.16.0",
+    "babel-preset-stage-0": "^6.16.0",
+    "css-loader": "^0.25.0",
+    "html-webpack-plugin": "^2.24.1",
+    "node-sass": "^3.10.1",
+    "react": "^15.3.2",
+    "react-dom": "^15.3.2",
+    "sass-loader": "^4.0.2",
+    "style-loader": "^0.13.1",
+    "webpack": "^1.13.3"
+  }
 }

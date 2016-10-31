@@ -1,1 +1,1 @@
-module.exports = require('./react-loader')
+module.exports = require('./lib/loader')

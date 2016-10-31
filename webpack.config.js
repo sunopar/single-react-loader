@@ -34,8 +34,6 @@ module.exports = {
     },
     plugins: [
         new htmlWebpack({ template: './index.html' }),
-        new webpack.ProvidePlugin({
-            'React': 'react'
-        })
+        new webpack.ProvidePlugin({ 'React': 'react' })
     ]
 }

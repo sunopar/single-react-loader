@@ -6,5 +6,5 @@ bin-release/
 noncp-debug.log
 npm-debug.log
 .DS_Store
-test/node_modules/
-
+compare/
+example/
