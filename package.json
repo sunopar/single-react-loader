@@ -1,6 +1,6 @@
 {
-    "name": "webpack-react-loader",
-    "version": "0.1.0",
+    "name": "single-react-loader",
+    "version": "0.1.1",
     "description": "webpack react-loader single-file",
     "main": "index.js",
     "scripts": {
@@ -8,7 +8,7 @@
     },
     "repository": {
         "type": "git",
-        "url": "git+https://github.com/sunopar/webpack-react-loader.git"
+        "url": "git+https://github.com/sunopar/single-react-loader.git"
     },
     "keywords": [
         "webpack",
@@ -18,9 +18,9 @@
     "author": "sunOpar",
     "license": "ISC",
     "bugs": {
-        "url": "https://github.com/sunopar/webpack-react-loader/issues"
+        "url": "https://github.com/sunopar/single-react-loader/issues"
     },
-    "homepage": "https://github.com/sunopar/webpack-react-loader#readme",
+    "homepage": "https://github.com/sunopar/single-react-loader#readme",
     "dependencies": {
         "loader-utils": "^0.2.16",
         "source-map": "^0.5.6"

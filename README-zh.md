@@ -1,4 +1,4 @@
-# webpack-react-loader
+# single-react-loader
 
 通过该插件，你可以使用单文件形式编写react组件（将jsx与style组合在一起）
 
@@ -30,10 +30,10 @@ export default About;
 
 ## 如何使用
 
-1.用npm下载webpack-react-loader
+1.用npm下载single-react-loader
 
 ```
-npm install webpack-react-loader
+npm install single-react-loader
 ```
 
 2.配置你的webpack
@@ -45,7 +45,7 @@ module: {
         {
         test: /\.react$/,
         exclude: /node_modules/,
-        loader: 'react-loader'
+        loader: 'single-react'
         }
     ]
 }
@@ -65,7 +65,7 @@ import About from 'About.react'
 <script>
 ...
 </script>
-<style lang="scss(or less)">
+<style lang="scss(或者 less)">
 ...
 </style>
 ```

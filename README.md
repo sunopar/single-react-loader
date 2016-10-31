@@ -1,4 +1,4 @@
-# webpack-react-loader
+# single-react-loader
 
 [中文版](https://github.com/sunOpar/webpack-react-loader/blob/master/README-zh.md)
 
@@ -32,10 +32,10 @@ export default About;
 
 ## how to use
 
-1.install the react-loader package with npm
+1.install the single-react-loader package with npm
 
 ```
-npm install webpack-react-loader
+npm install single-react-loader
 ```
 2.config your webpack
 
@@ -46,7 +46,7 @@ module: {
         {
         test: /\.react$/,
         exclude: /node_modules/,
-        loader: 'react-loader'
+        loader: 'single-react'
         }
     ]
 }
