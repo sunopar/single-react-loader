@@ -85,7 +85,9 @@ import About from 'About.react'
 
 ```
 
-### highlight and snippet in vscode
+## highlight and snippet 
+
+### vscode
 
 Place the following snippet into your settings file.
 
@@ -96,6 +98,15 @@ Place the following snippet into your settings file.
   }
 }
 ```
+
+### sublime
+
+![show](http://7xqo7w.com1.z0.glb.clouddn.com/aa.gif)
+
+
+1. open `*.react` file
+2. click view-->syntax-->open all with current extension as.. --> HTML
+
 
 ## What next
 

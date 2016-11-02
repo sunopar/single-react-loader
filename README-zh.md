@@ -84,7 +84,9 @@ import About from 'About.react'
 
 ```
 
-### vscode编辑器下的语法高亮和代码提示
+## 语法高亮和代码提示
+
+### vscode
 
 强烈推荐前端童鞋使用vscode编写代码，功能强大还很轻量，并且支持中文。
 
@@ -100,7 +102,14 @@ import About from 'About.react'
 }
 ```
 
-大功告成。
+### sublime
+
+![演示](http://7xqo7w.com1.z0.glb.clouddn.com/aa.gif)
+
+具体操作
+
+1. 打开`*.react`的文件
+2. 点击view-->syntax-->open all with current extension as.. --> HTML
 
 ## 下一步计划
 
