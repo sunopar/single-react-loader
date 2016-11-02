@@ -95,12 +95,13 @@ import About from 'About.react'
 ```
 {
   "files.associations": {
-    "*.vue": "vue"
+    "*.react": "html"
   }
 }
 ```
 
 大功告成。
+
 ## 下一步计划
 
 
