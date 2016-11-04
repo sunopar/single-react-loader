@@ -1,6 +1,6 @@
 {
   "name": "single-react-loader",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "webpack react-loader single-file",
   "main": "index.js",
   "scripts": {
