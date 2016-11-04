@@ -67,7 +67,7 @@ import About from 'About.react'
 <script>
 ...
 </script>
-<style lang="scss(or less)">
+<style lang="sass(or less)">
 ...
 </style>
 ```

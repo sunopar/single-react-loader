@@ -23,7 +23,7 @@
   },
   "homepage": "https://github.com/sunopar/single-react-loader#readme",
   "dependencies": {
-    "hash-sum": "^1.0.2",
+    "hash-sum": "^1.0.3",
     "loader-utils": "^0.2.16",
     "source-map": "^0.5.6"
   },

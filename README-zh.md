@@ -66,7 +66,7 @@ import About from 'About.react'
 <script>
 ...
 </script>
-<style lang="scss(或者 less)">
+<style lang="sass(或者 less)">
 ...
 </style>
 ```
