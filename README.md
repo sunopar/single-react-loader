@@ -40,18 +40,33 @@ npm install single-react-loader
 ```
 2.config your webpack
 
+### For webpack 1.x
 ```
 //webpack.config.js
 module: {
-    loaders: [
-        {
-        test: /\.react$/,
-        exclude: /node_modules/,
-        loader: 'single-react'
-        }
-    ]
+  loaders: [
+    {
+      test: /\.react$/,
+      exclude: /node_modules/,
+      loader: 'single-react'
+    }
+  ]
 }
 
+```
+
+### For webpack 2.x
+```
+//webpack.config.js
+module: {
+  rules: [
+    {
+      test: /\.react$/,
+      exclude: /node_modules/,
+      loader: 'single-react-loader'
+    }
+  ]
+}
 ```
 
 3.write single file react,and import

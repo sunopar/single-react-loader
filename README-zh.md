@@ -39,18 +39,33 @@ npm install single-react-loader
 
 2.配置你的webpack
 
+### webpack 1.x的配置
 ```
 //webpack.config.js
 module: {
-    loaders: [
-        {
-        test: /\.react$/,
-        exclude: /node_modules/,
-        loader: 'single-react'
-        }
-    ]
+  loaders: [
+    {
+      test: /\.react$/,
+      exclude: /node_modules/,
+      loader: 'single-react'
+    }
+  ]
 }
 
+```
+
+### webpack 2.x的配置
+```
+//webpack.config.js
+module: {
+  rules: [
+    {
+      test: /\.react$/,
+      exclude: /node_modules/,
+      loader: 'single-react-loader'
+    }
+  ]
+}
 ```
 
 3.编写你的单文件组件（例子上面已经写了）,然后引入
